@@ -1,0 +1,28 @@
+
+
+#produto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 250px;
+    border: solid 1px #ddd;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
+.card img{
+    max-width: 100%;
+    border: solid #ddd;
+    border-radius: 20px;
+}
+.card button{
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: solid 1px;
+    border-radius: 50px;
+}
