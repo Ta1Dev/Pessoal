@@ -37,11 +37,12 @@
     }
 }
 @media( max-width: 480px ){
+    main{
+        padding: 10px;
+    }
     #produto{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 10px;
         margin-top: 0;
     }
@@ -50,23 +51,25 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 90%;
-        padding:2px;
-        gap: 12px;
+        width: 100%;
+        padding:0px;
+        border: none;
+    }
+    .card h3{
+        width: 40%;
     }
     .card h3, .card p {
         font-size: 80%;
-    margin: 0;
     }
     .card img{
         width: 60px;
         height: auto;
-        border-radius: 20px 0 0 20px;
+        border-radius:20px;
     }
     .card button{
         font-size: 80%;
         border: none;
-        padding: 6px 12px;
+        padding: 0;
         scale: 0.9;
     }
 }
