@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){        //essa função
     //parte referente a interatividade dos cards
     const cards = document.querySelectorAll(".card")
 
-    cards.forEach(cards =>{                             //como cards se trata de varios cards o for each aplica a todos eles
+    cards.forEach(card =>{                             //como cards se trata de varios cards o for each aplica a todos eles
         cards.addEventListener("mouseover", () =>{
                 cards.style.backgroundColor = "#A83254 "
                 cards.style.color = "#f9f9f9"
