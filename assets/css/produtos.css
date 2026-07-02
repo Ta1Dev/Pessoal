@@ -56,13 +56,13 @@
         border: none;
     }
     .card h3{
-        width: 40%;
+        width: 30%;
     }
     .card h3, .card p {
         font-size: 80%;
     }
     .card img{
-        width: 60px;
+        width: 90px;
         height: auto;
         border-radius:20px;
     }
