@@ -10,7 +10,6 @@ main {
 #formContato{
     display: flex;
     flex-direction: column;
-    row-gap: 0.5rem;
     padding: 4rem 1.5rem;
     width: 50%;
     margin: 0;
@@ -41,6 +40,26 @@ button{
     align-self: center;
     padding: 0.5rem 3rem;
     background-color: #fff;
+}
+
+button:hover{
+    background-color: #ddd;
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.erro {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 0.5rem;
+    transition: 0.2s;
+
+}
+.sucesso {
+    color: green;
+    font-size: 1em;
+    font-weight: bold;
+    align-self: center;
 }
 
 @media ( max-width: 480px ){

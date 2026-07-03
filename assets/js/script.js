@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function(){        //essa função
 
         botoes.forEach(botao =>{
                 botao.addEventListener("mouseover", () =>{
-                    botao.style.backgroundColor = "#C9A646";
-                    botao.style.color = "#f9f9f9";
+                    botao.style.backgroundColor = "#ddd";
+                    botao.style.color = "red";
                     botao.style.transform = "scale(1.1)";
                     botao.style.transition = "0.5s";
                 })
