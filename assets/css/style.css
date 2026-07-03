@@ -50,6 +50,10 @@ main{
     padding: 20px;
 }
 
+button{
+    color: #333;
+}
+
 footer{
     background: #333;
     color: #fff;
@@ -72,7 +76,7 @@ footer{
         scale: 0.9;
     }
     header h1 a{
-        font-size: 1.5;
+        font-size: 1.4rem;
     }
 }
 @media( max-width: 480px ){
@@ -80,7 +84,7 @@ footer{
         font-size: 14px;
     }
     header h1{
-        font-size: 1.2em;
+        font-size: 1.3rem;
     }
 }
 

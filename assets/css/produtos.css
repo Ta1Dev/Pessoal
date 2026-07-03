@@ -33,13 +33,10 @@
         width: 20%;
     }
     .card img{
-        width: 80%;
+        width: 90%;
     }
 }
 @media( max-width: 480px ){
-    main{
-        padding: 10px;
-    }
     #produto{
         display: flex;
         flex-direction: column;
@@ -67,7 +64,6 @@
         border-radius:20px;
     }
     .card button{
-        font-size: 80%;
         border: none;
         padding: 0;
         scale: 0.9;

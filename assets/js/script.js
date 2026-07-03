@@ -35,6 +35,22 @@ document.addEventListener("DOMContentLoaded", function(){        //essa função
                     card.style.transform = "scale(1)";
                 })
         })
+
+        const botoes = document.querySelectorAll(".card button");
+
+        botoes.forEach(botao =>{
+                botao.addEventListener("mouseover", () =>{
+                    botao.style.backgroundColor = "#C9A646";
+                    botao.style.color = "#f9f9f9";
+                    botao.style.transform = "scale(1.1)";
+                    botao.style.transition = "0.5s";
+                })
+                botao.addEventListener("mouseout", ()=>{
+                    botao.style.transform = "scale(1)";
+                    botao.style.backgroundColor = "";
+                    botao.style.color = "";
+                })
+        })
     }
 })
 
