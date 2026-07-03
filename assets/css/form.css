@@ -1,32 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
 #formContato{
     display: flex;
     flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 4rem 1.5rem;
+    width: 50%;
     margin: 0;
+    border: solid 3px #ddd;
+    border-radius: 20px;
 }
 
 label{
     font-size: 14px;
-
 }
-
 
 input, textarea{
     padding: 10px;
-    border: solid 1px;
+    border: solid 0.1px #ddd;
+    border-radius: 20px;
     margin-bottom: 10px;
+    resize: none;
 }
 
 button{
     font-size: 14px;
-    border: none;
-    border-radius: 20px;
-    width: 10vh;
+    border: solid 1px #ddd;
+    border-radius: 10px;
     align-self: center;
-    padding: 5px;
+    padding: 0.5rem 3rem;
     background-color: #fff;
 }
 
-button:hover{
-    background-color: #555;
+@media ( max-width: 480px ){
+    #formContato{
+        width: 90%;
+    }
 }
 
